@@ -1,0 +1,249 @@
+{
+  "profile": {
+    "name": "ARF ID",
+    "role": "Web Developer",
+    "about": "Halo! Saya seorang web developer yang passionate dalam menciptakan pengalaman digital yang luar biasa. Dengan pengalaman lebih dari 5 tahun di industri kreatif, saya fokus pada pembuatan desain yang tidak hanya indah secara visual, tetapi juga fungsional dan user-friendly. Saya percaya bahwa desain yang baik adalah kombinasi sempurna antara estetika, fungsionalitas, dan inovasi. Setiap projek adalah kesempatan untuk belajar sesuatu yang baru dan mendorong batas kreativitas.",
+    "yearsOfExperience": 2,
+    "totalProjects": 10,
+    "totalClients": 10,
+    "heroImage": "https://thumbs4.imagebam.com/88/1e/b4/ME1BQUKV_t.jpg",
+    "aboutImage": "https://thumbs4.imagebam.com/88/1e/b4/ME1BQUKV_t.jpg"
+  },
+  "skills": [
+    {
+      "category": "Development",
+      "items": [
+        {
+          "name": "Javascript",
+          "level": 85
+        },
+        {
+          "name": "PHP",
+          "level": 95
+        },
+        {
+          "name": "ReactJS",
+          "level": 95
+        },
+        {
+          "name": "Next.js",
+          "level": 85
+        }
+      ],
+      "id": "2"
+    },
+    {
+      "id": "3",
+      "category": "Other Skills",
+      "items": [
+        {
+          "name": "UI/UX Design",
+          "level": 93
+        },
+        {
+          "name": "Prototyping",
+          "level": 90
+        },
+        {
+          "name": "Design Systems",
+          "level": 87
+        },
+        {
+          "name": "User Research",
+          "level": 82
+        }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "Website Desa NextJS",
+      "description": "Platform desa modern dengan dashboard admin dan fitur responsif",
+      "fullDescription": "Platform desa modern yang dibangun dengan Next.js, menampilkan dashboard admin yang lengkap, manajemen konten, dan desain responsif untuk akses dari berbagai perangkat.",
+      "image": "https://s0.wordpress.com/mshots/v1/https%3A%2F%2Fdesa-website-lake.vercel.app%2F?w=1280&h=720",
+      "technologies": [
+        "Next.js",
+        "Node.js",
+        "PostgreSQL"
+      ],
+      "language": "TypeScript",
+      "languageColor": "#3178C6",
+      "github": "https://github.com",
+      "live": "https://desa-website-lake.vercel.app/",
+      "stars": 12,
+      "forks": 3,
+      "id": "1"
+    },
+    {
+      "title": "PWA Muslim App",
+      "description": "Progressive Web App untuk aktivitas ibadah harian dengan fitur offline",
+      "fullDescription": "PWA Ibadah Harian Muslim adalah aplikasi web progresif yang membantu umat Muslim dalam menjalankan ibadah sehari-hari. Mendukung akses offline, instalasi di perangkat, dan tampilan responsif.",
+      "image": "https://s0.wordpress.com/mshots/v1/https%3A%2F%2Fdaily-muslim.netlify.app%2F?w=1280&h=720",
+      "technologies": [
+        "React",
+        "Framer Motion",
+        "Tailwind"
+      ],
+      "language": "JavaScript",
+      "languageColor": "#F7DF1E",
+      "github": "https://github.com",
+      "live": "https://daily-muslim.netlify.app/",
+      "stars": 28,
+      "forks": 8,
+      "id": "2"
+    },
+    {
+      "title": "Website Puisi",
+      "description": "Website puisi interaktif dengan visualisasi data dan fitur komunitas",
+      "fullDescription": "Situs web puisi interaktif yang menggabungkan visualisasi data dinamis dan fitur komunitas untuk penulis dan pembaca. Menampilkan pembuat puisi kolaboratif dan analitik pembaca.",
+      "image": "https://s0.wordpress.com/mshots/v1/https%3A%2F%2Fweb-puisi-react.vercel.app%2F?w=1280&h=720",
+      "technologies": [
+        "React",
+        "Supabase",
+        "NextAuth",
+        "Tailwind"
+      ],
+      "language": "TypeScript",
+      "languageColor": "#3178C6",
+      "github": "https://github.com",
+      "live": "https://web-puisi-react.vercel.app/",
+      "stars": 15,
+      "forks": 5,
+      "id": "3"
+    },
+    {
+      "title": "Landing Page Perusahaan CMS",
+      "description": "Platform portfolio dengan CMS dan animasi kustom untuk profesional kreatif",
+      "fullDescription": "Platform portfolio inovatif dengan pembuat drag-and-drop, tema kustom, dan manajemen konten yang mulus. Dibangun untuk profesional kreatif yang ingin memamerkan karya mereka.",
+      "image": "https://s0.wordpress.com/mshots/v1/https%3A%2F%2Fcompany-profile-cms-brown.vercel.app%2F?w=1280&h=720",
+      "technologies": [
+        "React",
+        "Framer Motion",
+        "Supabase",
+        "Tailwind"
+      ],
+      "language": "TypeScript",
+      "languageColor": "#3178C6",
+      "github": "https://github.com",
+      "live": "https://company-profile-cms-brown.vercel.app/",
+      "stars": 8,
+      "forks": 2,
+      "id": "4"
+    },
+    {
+      "title": "Aplikasi Cuaca",
+      "description": "Aplikasi prakiraan cuaca real-time dengan antarmuka modern dan intuitif",
+      "fullDescription": "Aplikasi cuaca yang menampilkan prakiraan real-time untuk berbagai lokasi. Memberikan informasi cuaca akurat termasuk suhu, kelembaban, kecepatan angin dengan antarmuka yang bersih.",
+      "image": "https://s0.wordpress.com/mshots/v1/https%3A%2F%2Fappcuaca.netlify.app%2F?w=1280&h=720",
+      "technologies": [
+        "React",
+        "Weather API",
+        "CSS"
+      ],
+      "language": "JavaScript",
+      "languageColor": "#F7DF1E",
+      "github": "https://github.com",
+      "live": "https://appcuaca.netlify.app/",
+      "stars": 6,
+      "forks": 1,
+      "id": "5"
+    },
+    {
+      "id": "1767022887371",
+      "title": "Portofolio Generator",
+      "description": "Portofolio Generator interaktif berbasis Next.js untuk membuat halaman profil kreator dan profesional secara instan.",
+      "fullDescription": "Aplikasi berbasis web modern untuk membuat dan mengelola web portofolio personal dengan cepat tanpa memerlukan keahlian coding tingkat mahir. Dilengkapi dengan kustomisasi tema menggunakan Tailwind CSS, integrasi data otomatis, serta dipublikasikan menggunakan platform deployment Vercel.",
+      "image": "https://s0.wordpress.com/mshots/v1/https%3A%2F%2Fportofolio-gen.achmadarha.site?w=1280&h=720",
+      "technologies": [
+        "NextJS",
+        "TailwindCSS",
+        "Vercel"
+      ],
+      "language": "TypeScript",
+      "languageColor": "#3178C6",
+      "github": "",
+      "live": "https://portofolio-gen.achmadarha.site",
+      "stars": 10,
+      "forks": 1
+    },
+    {
+      "id": "1767924699739",
+      "title": "Undangan Pernikahan Digital",
+      "description": "Platform integrasi khusus untuk mendesain dan membuat undangan pernikahan digital eksklusif.",
+      "fullDescription": "Sistem pembuatan undangan pernikahan berbasis teknologi web moden (TypeScript). Platform ini menawarkan personalisasi total mulai dari tata letak acara, penyisipan media galeri/video, hitung mundur (countdown timer), hingga reservasi kehadiran tamu (RSVP) secara interaktif dari sebuah tautan link yang dibagikan.",
+      "image": "https://s0.wordpress.com/mshots/v1/https%3A%2F%2Fwedding.achmadarha.site%2F?w=1280&h=720",
+      "technologies": [],
+      "language": "TypeScript",
+      "languageColor": "#3178C6",
+      "github": "",
+      "live": "https://wedding.achmadarha.site/",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "id": "1768000000000",
+      "title": "Aplikasi Pemesanan Cafe",
+      "description": "Sistem pemesanan cafe terpadu dengan fitur POS, manajemen meja berbasis QR Code, dan dashboard operasional.",
+      "fullDescription": "Aplikasi Pemesanan Cafe adalah solusi digital lengkap untuk operasional restoran dan kafe. Platform ini memfasilitasi pemesanan secara mandiri oleh pelanggan melalui QR Code meja, sekaligus menyediakan sistem Point of Sale (POS) yang handal untuk kasir. Terintegrasi dengan dashboard admin dan tampilan dapur (Kitchen Display System), aplikasi ini dirancang untuk mempercepat alur layanan, meminimalisir kesalahan pesanan, dan meningkatkan efisiensi operasional secara keseluruhan.<br/><br/>Landing Page: <a href=\"https://api.achmadarha.site\" target=\"_blank\" rel=\"noopener noreferrer\">https://api.achmadarha.site</a><br/>QR Meja: <a href=\"https://api.achmadarha.site/order?table=YZBWlcZqVWKz\" target=\"_blank\" rel=\"noopener noreferrer\">https://api.achmadarha.site/order?table=YZBWlcZqVWKz</a><br/>Admin (POS, Kitchen, dll): <a href=\"https://api.achmadarha.site/admin\" target=\"_blank\" rel=\"noopener noreferrer\">https://api.achmadarha.site/admin</a><br/>Email: admin@cafe.com<br/>Password: password<br/>Dokumentasi API: <a href=\"https://api.achmadarha.site/docs\" target=\"_blank\" rel=\"noopener noreferrer\">https://api.achmadarha.site/docs</a>",
+      "image": "https://s0.wordpress.com/mshots/v1/https%3A%2F%2Fapi.achmadarha.site%2F?w=1280&h=720",
+      "technologies": [
+        "Laravel"
+      ],
+      "language": "PHP",
+      "languageColor": "#777BB4",
+      "github": "",
+      "live": "https://api.achmadarha.site",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "id": "1768000000001",
+      "title": "Sistem Antrean Bengkel",
+      "description": "Aplikasi antrean modern untuk mengoptimalkan penerimaan servis dan alur kerja bengkel secara real-time.",
+      "fullDescription": "Sistem Antrean Bengkel adalah platform digital yang dirancang untuk mengatasi masalah penumpukan pelanggan dan ketidakteraturan jadwal perbaikan di bengkel. Dengan menggunakan sistem ini, staf bengkel dapat mendaftarkan pelanggan, memantau status pengerjaan secara real-time, dan mengelola giliran servis dengan lebih transparan. Tersedia peran berbeda seperti Kasir dan Owner untuk memudahkan akses informasi dan manajemen bengkel secara profesional.<br/><br/>Demo Aplikasi: <a href=\"https://host.achmadarha.site\" target=\"_blank\" rel=\"noopener noreferrer\">https://host.achmadarha.site</a><br/>Login Admin/Kasir/Owner: <a href=\"https://host.achmadarha.site/admin\" target=\"_blank\" rel=\"noopener noreferrer\">https://host.achmadarha.site/admin</a><br/>Akun Kasir: kasir@bengkel.com<br/>Akun Owner: owner@bengkel.com<br/>Password: password",
+      "image": "https://s0.wordpress.com/mshots/v1/https%3A%2F%2Fhost.achmadarha.site%2F?w=1280&h=720",
+      "technologies": [
+        "Laravel"
+      ],
+      "language": "PHP",
+      "languageColor": "#777BB4",
+      "github": "",
+      "live": "https://host.achmadarha.site",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "id": "1768000000002",
+      "title": "Sistem Informasi LPPM Kampus",
+      "description": "Platform pengelolaan administrasi penelitian dan pengabdian masyarakat (LPPM) untuk dosen dan staf kampus.",
+      "fullDescription": "Sistem Informasi LPPM (Lembaga Penelitian dan Pengabdian kepada Masyarakat) adalah aplikasi berbasis web untuk memfasilitasi seluruh proses pengajuan, review, hingga pelaporan kegiatan penelitian dan pengabdian oleh dosen. Sistem ini dilengkapi dengan portal khusus bagi dosen untuk melacak status usulan mereka, dan portal bagi admin/reviewer untuk melakukan verifikasi, penilaian proposal, serta pengelolaan luaran publikasi.<br/><br/>Demo Aplikasi: <a href=\"https://lppm.achmadarha.site\" target=\"_blank\" rel=\"noopener noreferrer\">https://lppm.achmadarha.site</a><br/><br/>Admin Portal: <a href=\"https://lppm.achmadarha.site/admin/login\" target=\"_blank\" rel=\"noopener noreferrer\">https://lppm.achmadarha.site/admin/login</a><br/>Email: superadmin@lppm.ac.id<br/>Password: password<br/><br/>Dosen Portal: <a href=\"https://lppm.achmadarha.site/dosen/login\" target=\"_blank\" rel=\"noopener noreferrer\">https://lppm.achmadarha.site/dosen/login</a><br/>NIDN: 0802028802<br/>Password: password",
+      "image": "https://s0.wordpress.com/mshots/v1/https%3A%2F%2Flppm.achmadarha.site%2F?w=1280&h=720",
+      "technologies": [
+        "Laravel"
+      ],
+      "language": "PHP",
+      "languageColor": "#777BB4",
+      "github": "",
+      "live": "https://lppm.achmadarha.site",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "id": "1768000000003",
+      "title": "Skripsi Repository Sistem",
+      "description": "Platform digital repositori skripsi untuk mengelola, menyimpan, dan mempublikasikan karya akhir mahasiswa.",
+      "fullDescription": "Skripsi Repository adalah sistem perpustakaan digital khusus yang dibangun untuk menyimpan arsip skripsi mahasiswa. Aplikasi ini membantu universitas dalam mendokumentasikan karya tulis secara rapi sekaligus mempermudah akses pencarian literatur akademik oleh publik, mahasiswa, maupun staf dosen. Sistem dilengkapi manajemen akses pengguna yang berbeda-beda untuk memastikan keamanan dan prosedur unggah dokumen sesuai standar akademik kampus.<br/><br/>Demo Aplikasi: <a href=\"https://skripsi.achmadarha.site/\" target=\"_blank\" rel=\"noopener noreferrer\">https://skripsi.achmadarha.site/</a><br/><br/>Admin Portal: <a href=\"https://skripsi.achmadarha.site/admin\" target=\"_blank\" rel=\"noopener noreferrer\">https://skripsi.achmadarha.site/admin</a><br/>Email: admin@repo.ac.id<br/>Password: password<br/><br/>Portal Mahasiswa: <a href=\"https://skripsi.achmadarha.site/login\" target=\"_blank\" rel=\"noopener noreferrer\">https://skripsi.achmadarha.site/login</a><br/>NIM: 20200001<br/>Password: password<br/><br/>Akses Publik: <a href=\"https://skripsi.achmadarha.site/login\" target=\"_blank\" rel=\"noopener noreferrer\">https://skripsi.achmadarha.site/login</a><br/>Email: irwan@gmail.com<br/>Password: password",
+      "image": "https://s0.wordpress.com/mshots/v1/https%3A%2F%2Fskripsi.achmadarha.site%2F?w=1280&h=720",
+      "technologies": [
+        "Laravel"
+      ],
+      "language": "PHP",
+      "languageColor": "#777BB4",
+      "github": "",
+      "live": "https://skripsi.achmadarha.site/",
+      "stars": 0,
+      "forks": 0
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
