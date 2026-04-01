@@ -1,9 +1,11 @@
 import { useState, useEffect } from "react";
 import { Plus, Trash2, Edit, X } from "lucide-react";
 
+import db from '../../../data/db.json';
+
 export function ManageProjects() {
-  const [projects, setProjects] = useState<any[]>([]);
-  const [loading, setLoading] = useState(true);
+  const [projects, setProjects] = useState<any[]>(db.projects);
+  const loading = false;
 
   // Modal State
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -23,18 +25,9 @@ export function ManageProjects() {
   });
 
   const fetchProjects = () => {
-    fetch("http://localhost:3001/projects")
-      .then((res) => res.json())
-      .then((data) => {
-        setProjects(data);
-        setLoading(false);
-      })
-      .catch((error) => console.error("Error fetching projects:", error));
+    // Cannot fetch in fully static mode
+    setProjects(db.projects);
   };
-
-  useEffect(() => {
-    fetchProjects();
-  }, []);
 
   const handleDelete = (id: string) => {
     if (!confirm("Hapus project ini?")) return;

@@ -6,17 +6,13 @@ import { Projects } from './components/Projects';
 import { Contact } from './components/Contact';
 import { Footer } from './components/Footer';
 import { useEffect } from 'react';
+import db from '../data/db.json';
 
 export default function App() {
   useEffect(() => {
-    fetch("http://localhost:3001/profile")
-      .then(res => res.json())
-      .then(data => {
-        if (data?.name) {
-          document.title = `Portofolio | ${data.name}`;
-        }
-      })
-      .catch(error => console.error("Error fetching profile for title:", error));
+    if (db.profile?.name) {
+      document.title = `Portofolio | ${db.profile.name}`;
+    }
   }, []);
 
   return (

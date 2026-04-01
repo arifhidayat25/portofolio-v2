@@ -3,24 +3,12 @@ import { ExternalLink, Github } from 'lucide-react';
 import { ImageWithFallback } from './figma/ImageWithFallback';
 import { useState, useEffect } from 'react';
 import { ProjectModal } from './ProjectModal';
+import db from '../../data/db.json';
 
 export function Projects() {
   const [selectedProject, setSelectedProject] = useState<any>(null);
-
-  const [projects, setProjects] = useState<any[]>([]);
-  const [loading, setLoading] = useState(true);
-
+  const projects = db.projects as any[];
   const [visibleCount, setVisibleCount] = useState(4);
-
-  useEffect(() => {
-    fetch("http://localhost:3001/projects")
-      .then((res) => res.json())
-      .then((data) => {
-        setProjects(data);
-        setLoading(false);
-      })
-      .catch((error) => console.error("Error fetching projects:", error));
-  }, []);
   return (
     <section id="projek" className="min-h-screen py-20 bg-white dark:bg-[#030213]">
       <div className="container mx-auto px-6">

@@ -1,21 +1,13 @@
 import { useState, useEffect } from "react";
 import { Save } from "lucide-react";
 
+import db from '../../../data/db.json';
+
 export function ManageProfile() {
-  const [profile, setProfile] = useState<any>(null);
-  const [loading, setLoading] = useState(true);
+  const [profile, setProfile] = useState<any>(db.profile);
+  const loading = false;
   const [saving, setSaving] = useState(false);
   const [message, setMessage] = useState("");
-
-  useEffect(() => {
-    fetch("http://localhost:3001/profile")
-      .then((res) => res.json())
-      .then((data) => {
-        setProfile(data);
-        setLoading(false);
-      })
-      .catch((error) => console.error("Error fetching profile:", error));
-  }, []);
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { name, value } = e.target;

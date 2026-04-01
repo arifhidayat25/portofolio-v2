@@ -1,9 +1,11 @@
 import { useState, useEffect } from "react";
 import { Plus, Trash2, Edit, X } from "lucide-react";
 
+import db from '../../../data/db.json';
+
 export function ManageSkills() {
-  const [skills, setSkills] = useState<any[]>([]);
-  const [loading, setLoading] = useState(true);
+  const [skills, setSkills] = useState<any[]>(db.skills);
+  const loading = false;
 
   // Modal State
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -14,18 +16,9 @@ export function ManageSkills() {
   });
 
   const fetchSkills = () => {
-    fetch("http://localhost:3001/skills")
-      .then((res) => res.json())
-      .then((data) => {
-        setSkills(data);
-        setLoading(false);
-      })
-      .catch((error) => console.error("Error fetching skills:", error));
+    // Cannot fetch in fully static mode
+    setSkills(db.skills);
   };
-
-  useEffect(() => {
-    fetchSkills();
-  }, []);
 
   const handleDelete = (id: string) => {
     if (!confirm("Hapus kategori skill ini?")) return;

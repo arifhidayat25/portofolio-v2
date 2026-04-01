@@ -2,16 +2,10 @@ import { motion } from 'motion/react';
 import { Code, Palette, Sparkles } from 'lucide-react';
 import { ImageWithFallback } from './figma/ImageWithFallback';
 import { useState, useEffect } from 'react';
+import db from '../../data/db.json';
 
 export function About() {
-  const [profile, setProfile] = useState<any>(null);
-
-  useEffect(() => {
-    fetch("http://localhost:3001/profile")
-      .then(res => res.json())
-      .then(data => setProfile(data))
-      .catch(err => console.error("Error fetching profile:", err));
-  }, []);
+  const profile = db.profile as any;
 
   const features = [
     {

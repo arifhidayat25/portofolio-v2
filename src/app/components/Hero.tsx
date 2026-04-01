@@ -2,16 +2,10 @@ import { useState, useEffect } from 'react';
 import { motion } from 'motion/react';
 import { ArrowDown } from 'lucide-react';
 import { ImageWithFallback } from './figma/ImageWithFallback';
+import db from '../../data/db.json';
 
 export function Hero() {
-  const [profile, setProfile] = useState<any>(null);
-
-  useEffect(() => {
-    fetch("http://localhost:3001/profile")
-      .then(res => res.json())
-      .then(data => setProfile(data))
-      .catch(err => console.error("Error fetching profile:", err));
-  }, []);
+  const profile = db.profile as any;
 
   const scrollToSection = (id: string) => {
     const element = document.getElementById(id);

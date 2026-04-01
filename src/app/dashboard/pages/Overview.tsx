@@ -1,23 +1,10 @@
 import { useEffect, useState } from "react";
 
-export function Overview() {
-  const [stats, setStats] = useState({ projects: 0, skills: 0 });
-  const [loading, setLoading] = useState(true);
+import db from '../../../data/db.json';
 
-  useEffect(() => {
-    Promise.all([
-      fetch("http://localhost:3001/projects").then((res) => res.json()),
-      fetch("http://localhost:3001/skills").then((res) => res.json()),
-    ])
-      .then(([projects, skills]) => {
-        setStats({
-          projects: projects.length,
-          skills: skills.length,
-        });
-        setLoading(false);
-      })
-      .catch((error) => console.error("Error fetching stats:", error));
-  }, []);
+export function Overview() {
+  const stats = { projects: db.projects.length, skills: db.skills.length };
+  const loading = false;
 
   if (loading) return <div className="text-gray-500">Loading overview...</div>;
 

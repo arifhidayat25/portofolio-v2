@@ -1,15 +1,9 @@
 import { motion } from 'motion/react';
 import { useState, useEffect } from 'react';
+import db from '../../data/db.json';
 
 export function Skills() {
-  const [skillCategories, setSkillCategories] = useState<any[]>([]);
-
-  useEffect(() => {
-    fetch("http://localhost:3001/skills")
-      .then((res) => res.json())
-      .then((data) => setSkillCategories(data))
-      .catch((err) => console.error("Error fetching skills:", err));
-  }, []);
+  const skillCategories = db.skills as any[];
 
   return (
     <section id="skills" className="min-h-screen py-20 bg-gradient-to-br from-cyan-50 via-white to-blue-50 dark:from-gray-900 dark:via-[#030213] dark:to-[#030213]">

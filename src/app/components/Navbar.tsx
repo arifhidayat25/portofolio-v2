@@ -2,19 +2,13 @@ import { useState, useEffect } from 'react';
 import { motion } from 'motion/react';
 import { Menu, X, Sun, Moon } from 'lucide-react';
 import { useTheme } from '../../providers/theme-provider';
+import db from '../../data/db.json';
 
 export function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const { theme, setTheme } = useTheme();
-  const [profile, setProfile] = useState<any>(null);
-
-  useEffect(() => {
-    fetch("http://localhost:3001/profile")
-      .then(res => res.json())
-      .then(data => setProfile(data))
-      .catch(err => console.error("Error fetching profile:", err));
-  }, []);
+  const profile = db.profile as any;
 
   useEffect(() => {
     const handleScroll = () => {
